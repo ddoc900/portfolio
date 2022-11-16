@@ -23,7 +23,8 @@ main {
 #area {
     background-color: lightcoral;
     grid-area: 1/1/12/15;
-    display: flex;
+    width: 90%;
+    margin: 0 8%;
     
 }
 
