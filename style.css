@@ -1,75 +1,51 @@
 body {
     background-color: bisque;
     box-sizing: border-box;
-<<<<<<< HEAD
     margin: 0;
     
-=======
->>>>>>> 8f1108c061d3322fd63a28fc018b01d487c12c6b
+
 }
 
 main {
     display: grid;
     grid-template-rows: repeat(12, 1fr);
     grid-template-columns: repeat(15, 1fr);
-<<<<<<< HEAD
     height: 90vh;
     width: 100vw;
     gap: 10px;
     background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+
     
-	justify-content: center;
-    
-    
-    
-    
-    
-    
-=======
-    max-height: 1vh;
-    /* grid-template-rows: auto auto;
-    grid-template-columns: auto auto; */
->>>>>>> 8f1108c061d3322fd63a28fc018b01d487c12c6b
 }
 
 #area {
     background-color: lightcoral;
     grid-area: 1/1/12/15;
+    display: flex;
     
 }
 
 #profile-pic {
     background-color: lightblue;
-    grid-area: 1/1/2/2
+    grid-area: 4/4/10/6;
 }
 
 #background {
     background-color: blue;
+    grid-area: 3/6/6/10;
 
-<<<<<<< HEAD
-    grid-area: 2/2/3/3;
-=======
-    grid-area: 2/2/5/5;
->>>>>>> 8f1108c061d3322fd63a28fc018b01d487c12c6b
 }
 
 #contact {
     background-color: aquamarine;
     
-<<<<<<< HEAD
-    grid-area: 4/4/5/5;
-=======
-    grid-area: 6/6/7/7;
->>>>>>> 8f1108c061d3322fd63a28fc018b01d487c12c6b
+    grid-area: 6/6/9/8
 }
+
 
 #games {
     background-color: lightpink;
-    
-    grid-area: 10/10/12/12;
+    grid-area: 7/8/10/12;
 }
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 8f1108c061d3322fd63a28fc018b01d487c12c6b
