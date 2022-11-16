@@ -1,0 +1,55 @@
+body {
+    background-color: bisque;
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+main {
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(15, 1fr);
+    height: 90vh;
+    width: 100vw;
+    gap: 10px;
+    background-color: aliceblue;
+    
+	justify-content: center;
+    
+    
+    
+    
+    
+    
+}
+
+#area {
+    background-color: lightcoral;
+    grid-area: 1/1/12/15;
+    
+}
+
+#profile-pic {
+    background-color: lightblue;
+    grid-area: 1/1/2/2
+}
+
+#background {
+    background-color: blue;
+
+    grid-area: 2/2/3/3;
+}
+
+#contact {
+    background-color: aquamarine;
+    
+    grid-area: 4/4/5/5;
+}
+
+#games {
+    background-color: lightpink;
+    
+    grid-area: 10/10/12/12;
+}
+
+
