@@ -71,6 +71,16 @@ main {
     color: white;
 }
 
+.title:hover {
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.title a {
+    color:white;
+    text-decoration: none;
+}
+
 
                 /* nav bar */
 
@@ -81,6 +91,8 @@ nav {
     display: flex;
     border-radius: 1%;
 }           
+
+
 
 nav ul {
     text-align: center;
@@ -93,4 +105,20 @@ nav li {
     list-style-type: none;
     padding: 40px 0;
     color: white;
+}
+
+nav li:hover {
+    color: black;
+}
+
+            /* background */
+
+.boating {
+    background-color: aquamarine;
+    grid-area: 3/3/10/12;
+}
+
+.coding {
+    background-color: blueviolet;
+    grid-area: 7/6/14/14;
 }

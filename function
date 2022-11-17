@@ -1,0 +1,23 @@
+const random = () => {
+    let x = Math.floor(Math.random()* 4)
+
+    switch (x) {
+        case 0: x= 'red'
+        break;
+        case 1: x= 'yellow'
+        break;
+        case 2: x= 'orange'
+        break;
+        case 3: x= 'green'
+        break;
+    }
+
+    return x
+}
+
+let change1 = document.getElementsByClassName(boating)
+let change2 = document.getElementsByClassName(coding)
+
+change1.onclick = function() {
+    document.boating.style.background = 'red'
+};
