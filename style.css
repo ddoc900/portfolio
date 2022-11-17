@@ -82,6 +82,7 @@ main {
 }
 
 
+
                 /* nav bar */
 
 nav {
@@ -113,12 +114,16 @@ nav li:hover {
 
             /* background */
 
-.boating {
+#boating {
     background-color: aquamarine;
     grid-area: 3/3/10/12;
 }
 
-.coding {
+#coding {
     background-color: blueviolet;
     grid-area: 7/6/14/14;
+}
+
+#change {
+    grid-area: 2/5/2/7;
 }
